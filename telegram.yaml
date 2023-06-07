@@ -9,7 +9,7 @@
         method: POST
         body_format: json
         body: 
-          chat_id: "6242839571"
+          chat_id: "6242839471"
           text: "Ansible task has been completed! check semaphore dashboard for more info."
         status_code: 200
 ...

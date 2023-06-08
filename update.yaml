@@ -1,7 +1,7 @@
 - hosts: all
   become: yes
   vars:
-    ansible_become_password: Ctactest
+    ansible_become_password: Ctactest.
     ansible_become_user: administrator
   tasks:
     - name: Update apt repo

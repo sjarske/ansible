@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  become_method: sudo
   vars:
     ansible_become_password: Ctactest.
     ansible_become_user: root

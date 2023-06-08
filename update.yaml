@@ -1,7 +1,11 @@
-- hosts: "*"
+- hosts: all
   become: yes
+  vars:
+    ansible_become_password: Ctactest
+    ansible_become_user: administrator
   tasks:
-    - name: apt 
+    - name: Update apt repo
       apt:
         upgrade: yes
         update_cache: yes
+
